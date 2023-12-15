@@ -1,0 +1,174 @@
+:root{
+    --main: darkred;
+    --sec: #C67F7F;
+    --acc: #ececec;
+    --font: 'Nova Square', cursive;
+    --secfont: 'Rajdhani';
+}
+*{
+    font-family: var(--font);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background:linear-gradient(to bottom, rgb(255, 255, 255), transparent), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+main{
+    background-color: rgb(236, 236, 236);
+}
+footer{
+    background-color: rgb(236, 236, 236);
+}
+i{
+    color: var(--main);
+}
+p{
+    font-family: cursive
+}
+h1{
+    font-size: 80px;
+    font-family: var(--font);
+    color: var(--main);
+    letter-spacing: 0.5rem;
+}
+h2{
+    font-family: var(--font);
+    color: var(--main)
+}
+h3{
+    color: var(--main);
+}
+h4{
+    color: var(--main);
+}
+h5{
+    color: white;
+}
+h6{
+    text-align: center;
+    color: var(--main);
+    padding-top: 20px;
+}
+button{
+    color: var(--acc);
+    background-color: var(--main);
+}
+li{
+    color: white;
+}
+.head{
+    height: 100vh;
+}
+
+.img2{
+    width: 100vw
+}
+.back{
+    background-color: rgb(236, 236, 236);
+    padding-top: 80px;
+}
+.bi{
+    color: var(--main);
+}
+.descrizione{
+    padding-top: 10px;
+}
+.container2{
+    padding-top: 100px;
+}
+.pseudo::before{
+    content:"'" "'";
+    color: var(--main)
+}
+.pseudo::after{
+    content: "'" "'";
+    color: var(--main);
+}
+.linea{
+    width: 14vw;
+    
+}
+.border_custom{
+    border-bottom: 2px solid var(--main);
+    position: relative;
+}
+.border_custom::after{
+    content:"";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 2px solid var(--main);
+    border-radius: 50%;
+    position: absolute;
+    left: 46%;
+    bottom: -10px;
+}
+.contenitore{
+    margin-top: 150px;
+}
+
+.olt{
+    width: 50%;
+}
+.sfondo{
+    background-color: rgb(255, 255, 255);
+}
+.border_custom2{
+    border-left: 2px solid var(--main);
+    position: relative;
+}
+.border_custom2::after{
+    content:"";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 2px solid var(--main);
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: -12px;
+}
+.spazio{
+    margin-left: 15px;
+}
+.cerchiotto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid var(--main);
+    flex-shrink: 0;
+}
+.cerchiogrande{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 2px solid var(--main);
+    flex-shrink: 0;
+}
+.marginealto{
+    margin-top: 250px;
+}
+.alberellirossi{
+    width: 100%;
+    height: 50vh;
+}
+.bg_red{
+    background-color: var(--main);
+}
+.bottonealt{
+    margin-top: 180px;
+}
+#titoloasinistra{
+    text-align: start;
+}
+#white{
+    color:white;
+    padding-top: 30px;
+}
+
